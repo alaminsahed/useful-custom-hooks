@@ -8,6 +8,7 @@ const useFetch = (url, option = null) => {
     const [data, setData] = useState("");
     const [error, setError] = useState("");
     const [loading, setLoading] = useState(false);
+    //use option parameter if you need
 
     useEffect(() => {
         setLoading(true);
